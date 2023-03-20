@@ -5,13 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/lottie_layer_name"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="false"
-        app:lottie_fileName="ladybuddy.json"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/splash"
+        android:layout_height="300dp"/>
 
 
 </RelativeLayout>
